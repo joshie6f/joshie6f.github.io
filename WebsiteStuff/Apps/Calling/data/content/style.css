@@ -1,0 +1,13 @@
+body {
+	background-color: white;
+	
+}
+
+H1 {
+	font-size: 20px;
+}
+
+canvas {
+	border: black 5px solid;
+	width: fill;
+}

@@ -1,0 +1,278 @@
+@import
+url("http://fonts.googleapis.com/css?family=Amiko:300,400,700,900")
+;
+
+*{
+	box-sizing: border-box;
+}
+
+
+
+body {
+	margin: 0;
+	font-family: 'Amiko';
+	text-align: center;
+	
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.container {
+	position: relativel;
+	width: 95%;
+	margin: 0 auto;
+}
+/*typography
+====================*/
+
+h1 {
+	font-weight: 300;
+	font-size: 2.5rem;
+	margin-top: 0;
+}
+
+.title {
+	font-size: 2.5rem;
+	margin-bottom: 1.5em;
+	font-weight: 900;
+	margin-top: 1em;
+	
+	
+}
+
+.title span {
+	font-weight: 300;
+	display: block;
+	font-size: .8em;
+	
+}
+
+@media (min-width:60rem) {
+	.title {
+		font-size: 3.7rem
+	}
+}
+
+/*Button
+====================*/
+.button {
+	display: inline-block;
+	font-size: 1.5rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 2px;
+	border-style: solid;
+	padding: .5em 1.5em;
+}
+
+@media (min-width 60 rem) {
+	.button {
+	font-size:1.5rem;
+ }
+}
+
+
+.button-small {
+	font-size: .7rem;
+	font-weight: 700;
+}
+
+
+.button-accent {
+	color: #551A8B;
+	border-color: #551A8B;
+	
+}
+
+.button-accent:hover,
+.button-accent:focus {
+	background: rgba(35, 10, 55, 0.5);
+	color: #ff0000;
+} 
+
+
+
+
+/*header
+====================*/
+
+header {
+    position: absolute; 
+	left: 0;
+	right: 0;
+	margin: 1em;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+
+header nav li {
+	display: inline-block;
+	margin: 1em;
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .75rem;
+	padding: .5em;
+	color: #FFF;
+}
+
+
+header nav a {
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .75rem;
+	padding: .5em;
+	color: #FFF;
+}
+
+
+
+@media (min-width:60rem) {
+	.logo {
+		float: left;
+	}
+	header nav {
+		float: right;
+
+	}
+	}
+
+
+
+
+/*home hero
+====================*/
+
+.home-hero {
+	background-image:
+	url(../img/ss.jpeg);
+	background-size: cover;
+	background-position: center;
+	padding: 10em 0;
+	color: #FFF;
+}
+
+
+/* he didnot put it back in */
+header nav a:hover,
+header nav a:focus, {
+	color:DDD;
+}
+
+@media (min-width:60rem) {
+	.home-hero {
+		height: 100vh;
+		padding-top: 35vh;
+	}
+}
+
+/* home-hero  
+==========================*/
+
+.home-about-textbox {
+	background-color: #FFF;
+	padding: 4em;
+	width: 100vw;
+	margin-left: -3%;
+	color: #000000;
+	border-style: solid;
+	border-width: 3px;
+
+}
+
+@media (min-width: 60rem) {
+	.home-about {
+}
+}
+
+/*-----------------------------------------------------*/
+
+
+.portfolio div {
+	display: inline-block;
+	font-size: 1.5rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 1px;
+	border-style: solid;
+	padding: .5em 1.5em;
+	width: 400px;
+	height: 300px;
+}
+	
+.portfolio a {
+	text-decoration: none;
+	color: #B22222;
+	font-family: Lato;
+}
+
+.portfolio h1 {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------footer----------------------*/
+footer nav {
+	float: left;
+
+}
+
+footer nav ul {
+	
+}
+
+footer nav ul li {
+	display: inline-block;
+	margin-left: 200px;
+	list-style: none;
+}
+
+footer nav ul li a {
+	font-family: Lato; 
+	font-weight: 400;
+	font-size: 13px;
+	color:#fff;
+	text-decoration: none;
+	padding: 1px;
+
+}
+
+footer nav ul li h2 {
+	font-weight: 100;
+	font-size: 0.009px;
+	color:#fff;
+	text-decoration: none;
+}
+footer {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	padding: 50px 0px
+}
+
+
+
+
+
+

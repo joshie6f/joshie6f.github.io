@@ -1,0 +1,171 @@
+@import
+url("http://fonts.googleapis.com/css?family=Amiko:300,400,700,900")
+;
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+		padding: 0;
+		margin: 0;
+
+}
+
+header {
+    position: absolute; 
+	left: 0;
+	right: 0;
+	margin: 1em;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+
+header nav li {
+	display: inline-block;
+	margin: 1em;
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .75rem;
+	padding: .5em;
+	color: #FFF;
+}
+
+
+header nav a {
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .75rem;
+	padding: .5em;
+	color: #FFF;
+}
+
+
+
+@media (min-width:60rem) {
+	.logo {
+		float: left;
+	}
+	header nav {
+		float: right;
+
+	}
+	}
+	
+	
+	/*home hero
+====================*/
+
+.home-hero {
+	background-image:
+	url(img/ss.jpeg);
+	background-size: cover;
+	background-position: center;
+	padding: 5em 0;
+	color: #FFF;
+	background-attachment: fixed;
+}
+
+
+
+/* he didnot put it back in */
+header nav a:hover,
+header nav a:focus, {
+	color:DDD;
+}
+
+@media (min-width:60rem) {
+	.home-hero {
+		height: 10vh;
+		padding-top: 5vh;
+	}
+}
+
+
+
+/*--------------------------------blog---------------------------------*/
+
+.container  {
+	padding: 20px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+
+.Blog h1 {
+	text-align: center;
+	font-family: Roboto;
+}
+
+.Blog a {
+	display: inline-block;
+	border-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------footer----------------------*/
+footer nav {
+	float: left;
+
+}
+
+footer nav ul {
+	
+}
+
+footer nav ul li {
+	display: inline-block;
+	margin-left: 200px;
+	list-style: none;
+}
+
+footer nav ul li a {
+	font-family: Lato; 
+	font-weight: 400;
+	font-size: 13px;
+	color:#fff;
+	text-decoration: none;
+	padding: 1px;
+
+}
+
+footer nav ul li h2 {
+	font-weight: 100;
+	font-size: 0.009px;
+	color:#fff;
+	text-decoration: none;
+}
+footer {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	padding: 50px 0px
+}
+
+
+
