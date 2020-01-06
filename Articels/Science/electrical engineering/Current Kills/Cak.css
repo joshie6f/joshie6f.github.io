@@ -374,5 +374,121 @@ footer {
 
 
 
+/*Media*/
 	
 
+@media (max-width: 320px){
+	.Blog  {
+		width: 90%;
+		position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
+		left: -75px;
+		
+
+	}
+	.AdLeft {
+		float: left;
+		width: 5%;
+		/*background-color: blue;   Test*/
+	}
+	.AdRight {
+		float: right;
+		width: 5%;
+		/*background-color: red;*/
+	}
+
+	.Blog img {
+		align: center;
+		height: 75%;
+		width:  60%;
+}
+
+
+}
+
+@media (max-width: 480px) and (min-width: 321px) {
+	.Blog  {
+		width: 90%;
+		position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
+		left: -75px;
+		
+
+	}
+	.AdLeft {
+		float: left;
+		width: 5%;
+		/*background-color: blue;   Test*/
+	}
+	.AdRight {
+		float: right;
+		width: 5%;
+		/*background-color: red;*/
+	}
+
+	.Blog img {
+		align: center;
+		height: 75%;
+		width:  60%;
+}
+
+
+}
+
+@media (max-width: 600px) and (min-width: 481px){
+	.Blog  {
+		width: 80%;
+		position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
+		left: -35px;
+		
+
+	}
+	.AdLeft {
+		float: left;
+		width: 5%;
+		/*background-color: blue;   Test*/
+	}
+	.AdRight {
+		float: right;
+		width: 5%;
+		/*background-color: red;*/
+	}
+
+	.Blog img {
+		align: center;
+		height: 75%;
+		width:  60%;
+}
+
+
+}
+
+@media (max-width: 768px) and (min-width: 601px){
+	.Blog  {
+		width: 80%;
+		position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
+		left: -35px;
+		
+
+	}
+	.AdLeft {
+		float: left;
+		width: 5%;
+		/*background-color: blue;   Test*/
+	}
+	.AdRight {
+		float: right;
+		width: 5%;
+		/*background-color: red;*/
+	}
+
+	.Blog img {
+		align: center;
+		height: 75%;
+		width:  60%;
+}
+
+
+}
+
+
+
+/*All widths after this work fine*/
