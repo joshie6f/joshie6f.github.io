@@ -2,6 +2,11 @@
 url("http://fonts.googleapis.com/css?family=Amiko:300,400,700,900")
 ;
 
+@font-face {
+	font-family: ElectroText;
+	src: url("font/electrox.ttf");
+}
+
 *{
 	box-sizing: border-box;
 }
@@ -122,9 +127,10 @@ header {
 }
 
 
-h1 { font-family: Impact, Charcoal, sans-serif; font-size: 30px;
- font-style: normal; font-variant: normal; font-weight: 700;
- line-height: 26.4px; }
+h1 { font-family: ElectroText;
+	 font-size: 100px;
+	 line-height: 26.4px; 
+}
  
 h2{
 		font-family: "Courier New", Courier, monospace;
