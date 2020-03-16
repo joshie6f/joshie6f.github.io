@@ -1,11 +1,6 @@
-@import
-url("http://fonts.googleapis.com/css?family=Amiko:300,400,700,900")
-;
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Raleway&display=swap');
 
-@font-face {
-	font-family: ElectroText;
-	src: url("font/electrox.ttf");
-}
+
 
 *{
 	box-sizing: border-box;
@@ -127,9 +122,10 @@ header {
 }
 
 
-h1 { font-family: ElectroText;
+h1 { font-family: Averia Serif Libre, serif;
 	 font-size: 100px;
-	 line-height: 26.4px; 
+	 font-weight: 700;
+	 
 }
  
 h2{
@@ -159,18 +155,35 @@ h4 {
 }
 
 
- p { font-family: "Courier New", Courier, monospace;
+ p { font-family: "Raleway", sans-serif;
 		font-size: 20px;
 		font-style: normal;
 		font-variant: normal;
 		font-weight: 400;
-		line-height: 25px; 
+		line-height: 35px; 
 		color: black;
 		padding: 5px;
 
  }
-
-
+ #Attribution {
+	font-family: "Courier New", Courier, monospace;
+		font-size: 10px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 0;
+		line-height: 0px; 
+		color: black;
+		padding: 10px;
+		float: center;
+		right: 0px;
+		margin-left: 0px;
+		margin-top: 10px;
+}
+#attrib {
+	float: left;
+	margin-right: 0px;
+	margin-left: 50px;
+}
 
  /*The ratio between width of the blog container and the width of the ad sections changes the look of the 
  article.*/
@@ -199,6 +212,11 @@ h4 {
  img {
 	 border-radius: 5px;
 	 margin-top: 5px;
+ }
+ #voltPic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
  }
 
 .middle {

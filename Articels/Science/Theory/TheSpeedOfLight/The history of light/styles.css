@@ -1,0 +1,547 @@
+@import
+url("http://fonts.googleapis.com/css?family=Amiko:300,400,700,900")
+;
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+		padding: 0;
+		margin: 0;
+
+}
+
+header {
+    position: absolute; 
+	left: 0;
+	right: 0;
+	margin: 1em;
+}
+
+header nav ul {
+	margin-left: 0 auto;
+	padding: 0;
+	list-style: none;
+	
+}
+
+header nav li {
+	display: inline-block;
+	margin: 1em;
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .75rem;
+	padding: .5em;
+	color: #FFF;
+}
+
+
+header nav a {
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .75rem;
+	padding: .5em;
+	color: #FFF;
+}
+@media (min-width:60rem) {
+	p {
+		font-size: 0.625rem;
+	}
+
+	.logo {
+		float: left;
+	}
+	header nav {
+		float: right;
+
+	}
+	}
+
+@media (max-width: 400px) {
+	header img {
+
+		size: 100%; 
+	}
+}
+
+
+
+
+
+	
+	
+	/*home hero
+====================*/
+
+.home-hero {
+	background-image:
+	url(img/ss.jpeg);
+	background-size: cover;
+	background-position: center;
+	padding: 5em 0;
+	color: #fff;
+	background-attachment: fixed;
+	width: 100%;
+}
+
+
+
+/* he didnot put it back in 
+header nav a:hover,
+header nav a:focus, {
+	color:DDD;
+}
+*/
+
+@media (min-width:60rem) {
+	.home-hero {
+		height: 10vh;
+		padding-top: 5vh;
+		
+	}
+
+
+}
+/*Blog
+============================
+*/ 
+
+.Blog {
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: white;
+
+}
+
+header {
+	width: 100%;
+
+}
+
+
+h1 { font-family: Impact, Charcoal, sans-serif; font-size: 30px;
+ font-style: normal; font-variant: normal; font-weight: 700;
+ line-height: 26.4px; }
+ 
+h2{
+		font-family: "Courier New", Courier, monospace;
+		font-size: 15px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 13px;
+		color: rgba(0, 0, 0, 0.25);
+}
+
+h3{
+		font-family: "Courier New", Courier, monospace;
+		font-size: 30px;
+		font-style: bold;
+		font-weight: 700;
+		line-height: 18px;
+
+}
+
+h4 {
+	font-family: "Courier New", Courier, monospace;
+		font-size: 20px;
+		font-style: bold;
+		font-weight: 600;
+		line-height: 0px;
+}
+
+
+ p { font-family: "Courier New", Courier, monospace;
+		font-size: 20px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 400;
+		line-height: 25px; 
+		color: black;
+		padding: 15px;
+		line-height: 35px;
+		
+
+ }
+
+#Attribution {
+	font-family: "Courier New", Courier, monospace;
+		font-size: 10px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 0;
+		line-height: 0px; 
+		color: black;
+		padding: 0px;
+		float: right;
+		right: 0px;
+		margin-left: 0px;
+}
+
+#attrib {
+	float: left;
+	margin-right: 0px;
+	margin-left: 50px;
+}
+
+ /*The ratio between width of the blog container and the width of the ad sections changes the look of the 
+ article.*/
+.Blog  {
+
+	/*margin-left: 5px;
+	margin-right: 5px;*/
+	width: 75%;
+}
+.Blog .container {
+	float: center;
+}
+
+
+.Blog .container p {
+	width: 100%;
+
+}
+ 
+
+ .begin {
+	 margin: 0px auto;
+	 float: center;
+ }
+ 
+ img {
+	 border-radius: 5px;
+	 margin-top: 5px;
+ }
+
+.middle {
+	 margin: 0px auto;
+	 float: center;
+ }
+ 
+ .end {
+	 margin: 0px auto;
+	 float: center;
+ }
+
+ .AdLeft {
+	 /*background-color: blue;  test*/
+	 min-height: 100px;
+	 height: 100%;
+	 float: left;
+	 width: 12.5%;
+ }
+
+ .AdRight {
+	min-height: 100px;
+	height: 100%;
+	float: right;
+	width: 12.5%;
+}
+  
+ 
+@media (max-width: 400px){
+	.Blog  {
+		/*margin: 0px auto;*/
+		text-align: center;
+		width: 60%;
+		
+
+	}
+	.AdLeft {
+		float: left;
+		width: 5%;
+		/*background-color: blue;   Test*/
+	}
+	.AdRight {
+		float: right;
+		width: 5%;
+		/*background-color: red;*/
+	}
+
+	.Blog img {
+		align: center;
+		height: 75%;
+		width:  60%;
+
+	}
+}
+ 
+ 
+ 
+ /*Tablet View*/
+@media (min-width: 401px) and (max-width: 960px){
+/* test	.container {
+		background: blue; */
+	}
+	body Header .container {
+		text-align: center;
+	}
+	body Header {
+		text-align: center;
+		margin: 0 auto;
+		}
+	.Blog .container {
+		margin: 0px auto;
+		font-size: 20px;
+	}
+
+
+
+ /*Mobile View*/
+@media (max-width: 400px){
+
+	/* test 
+	.container {
+		background: green;
+		*/
+	
+	body Header .container {
+		text-align: center;
+		
+	}
+	body Header {
+		text-align: center;
+		margin: 0 auto;
+		}
+	
+	footer wrapper p{
+		font-size: 1px;
+		margin: 0px auto;
+	}
+	footer nav{
+		margin: 0 auto;
+		display: inline-block;
+	
+}
+}
+
+
+@media (max-width: 400px) { /*computer-veiw*/
+	p {
+	font-size: 20px; 
+	}
+	H1 {
+	font-size: 25px;
+	}
+}
+
+@media (min-width: 401px) and (max-width: 960px) { /*tablet*/
+	p {
+	font-size: 20px;
+	}
+	h1 {
+		font-size: 25px;
+		}
+}
+
+@media (min-width: 961px) {
+	p {
+	font-size: 1.2rem;
+	font-stretch: expanded;
+	}
+
+	h1 {
+		font-size: 25px;
+		}
+}
+
+
+ 
+ 
+ /*-----------------------------footer----------------------*/
+footer nav {
+	float: left;
+
+}
+footer p {
+	text-align: center;
+}
+
+footer nav ul {
+	
+}
+
+footer nav ul li {
+	display: inline-block;
+	margin-left: 200px;
+	list-style: none;
+}
+
+footer nav ul li a {
+	font-family: Lato; 
+	font-weight: 400;
+	font-size: 13px;
+	color:#fff;
+	text-decoration: none;
+
+
+}
+
+footer nav ul li h2 {
+	font-weight: 100;
+	font-size: 0.009px;
+	color:#fff;
+	text-decoration: none;
+}
+footer {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	padding: 50px 0px
+}
+
+
+
+
+
+/* ----------- Google Pixel ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+	.Blog  {
+		/*margin: 0px auto;*/
+		text-align: center;
+		width: 60%;
+		
+
+	}
+	.AdLeft {
+		float: left;
+		width: 5%;
+		/*background-color: blue;   Test*/
+	}
+	.AdRight {
+		float: right;
+		width: 5%;
+		/*background-color: red;*/
+	}
+
+	.Blog img {
+		align: center;
+		height: 75%;
+		width:  60%;
+
+	}
+
+}
+
+@media (max-width: 320px){
+	.Blog  {
+		width: 90%;
+		position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
+		left: -75px;
+		
+
+	}
+	.AdLeft {
+		float: left;
+		width: 5%;
+		/*background-color: blue;   Test*/
+	}
+	.AdRight {
+		float: right;
+		width: 5%;
+		/*background-color: red;*/
+	}
+
+	.Blog img {
+		align: center;
+		height: 75%;
+		width:  60%;
+}
+
+
+}
+
+@media (max-width: 480px) and (min-width: 321px) {
+	.Blog  {
+		width: 90%;
+		position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
+		left: -75px;
+		
+
+	}
+	.AdLeft {
+		float: left;
+		width: 5%;
+		/*background-color: blue;   Test*/
+	}
+	.AdRight {
+		float: right;
+		width: 5%;
+		/*background-color: red;*/
+	}
+
+	.Blog img {
+		align: center;
+		height: 75%;
+		width:  60%;
+}
+
+
+}
+
+@media (max-width: 600px) and (min-width: 481px){
+	.Blog  {
+		width: 80%;
+		position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
+		left: -35px;
+		
+
+	}
+	.AdLeft {
+		float: left;
+		width: 5%;
+		/*background-color: blue;   Test*/
+	}
+	.AdRight {
+		float: right;
+		width: 5%;
+		/*background-color: red;*/
+	}
+
+	.Blog img {
+		align: center;
+		height: 75%;
+		width:  60%;
+}
+
+
+}
+
+@media (max-width: 768px) and (min-width: 601px){
+	.Blog  {
+		width: 90%;
+		position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
+		left: -10px;
+		
+
+	}
+	.AdLeft {
+		float: left;
+		width: 5%;
+		/*background-color: blue;   Test*/
+	}
+	.AdRight {
+		float: right;
+		width: 5%;
+		/*background-color: red;*/
+	}
+
+	.Blog img {
+		align: center;
+		height: 75%;
+		width:  60%;
+}
+
+
+}
+
+
+
+/*All widths after this work fine*/
