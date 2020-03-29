@@ -2,6 +2,12 @@
 url("http://fonts.googleapis.com/css?family=Amiko:300,400,700,900")
 ;
 
+
+html {
+	font-size: 20px;
+}
+
+
 *{
 	box-sizing: border-box;
 }
@@ -78,7 +84,7 @@ header img {
 	url(img/ss.jpeg);
 	background-size: cover;
 	background-position: center;
-	padding: 5em 0;
+	padding: 5rem 0;
 	color: #fff;
 	background-attachment: fixed;
 	width: 100%;
@@ -111,68 +117,68 @@ header {
 }
 
 
-h1 { font-family: Impact, Charcoal, sans-serif; font-size: 30px;
- font-style: normal; font-variant: normal; font-weight: 700;
- line-height: 26.4px; }
+h1 { font-family: Impact, Charcoal, sans-serif; font-size: 1.5rem;
+ font-style: normal; font-variant: normal; font-weight: 35rem;
+ line-height: 1.32rem; }
  
 h2{
 		font-family: "Courier New", Courier, monospace;
-		font-size: 15px;
+		font-size: 0.75rem;
 		font-style: normal;
-		font-weight: 700;
-		line-height: 13px;
+		font-weight: 35rem;
+		line-height: 0.65rem;
 		color: rgba(0, 0, 0, 0.25);
 }
 
 h3{
 		font-family: "Courier New", Courier, monospace;
-		font-size: 30px;
+		font-size: 1.5rem;
 		font-style: bold;
 		font-weight: 700;
-		line-height: 18px;
+		line-height: 0.9rem;
 
 }
 
 h4 {
 	font-family: "Courier New", Courier, monospace;
-		font-size: 20px;
+		font-size: 1rem;
 		font-style: bold;
 		font-weight: 600;
-		line-height: 0px;
+		line-height: 0rem;
 }
 
 
  p { font-family: "Courier New", Courier, monospace;
-		font-size: 20px;
+		font-size: 1rem;
 		font-style: normal;
 		font-variant: normal;
-		font-weight: 400;
-		line-height: 25px; 
+		font-weight: 20rem;
+		line-height: 1.25rem; 
 		color: black;
-		padding: 15px;
-		line-height: 35px;
+		padding: 0.75rem;
+		line-height: 1.75rem;
 		
 
  }
 
 #Attribution {
 	font-family: "Courier New", Courier, monospace;
-		font-size: 10px;
+		font-size: 0.5rem;
 		font-style: normal;
 		font-variant: normal;
 		font-weight: 0;
-		line-height: 0px; 
+		line-height: 0rem; 
 		color: black;
-		padding: 0px;
+		padding: 0rem;
 		float: right;
-		right: 0px;
-		margin-left: 0px;
+		right: 0rem;
+		margin-left: 0rem;
 }
 
 #attrib {
 	float: left;
-	margin-right: 0px;
-	margin-left: 50px;
+	margin-right: 0rem;
+	margin-left: 2.5rem;
 }
 
  /*The ratio between width of the blog container and the width of the ad sections changes the look of the 
@@ -187,35 +193,35 @@ h4 {
  
 
  .begin {
-	 margin: 0px auto;
+	 margin: 0rem auto;
 	 float: center;
  }
  
  img {
-	 border-radius: 5px;
-	 margin-top: 5px;
+	 border-radius: 0.25rem;
+	 margin-top: 0.25rem;
  }
 
 .middle {
-	 margin: 0px auto;
+	 margin: 0rem auto;
 	 float: center;
  }
  
  .end {
-	 margin: 0px auto;
+	 margin: 0rem auto;
 	 float: center;
  }
 
  .AdLeft {
 	 /*background-color: blue;  test*/
-	 min-height: 100px;
+	 min-height: 5rem;
 	 height: 100%;
 	 float: left;
 	 width: 12.5%;
  }
 
  .AdRight {
-	min-height: 100px;
+	min-height: 5rem;
 	height: 100%;
 	float: right;
 	width: 12.5%;
@@ -241,14 +247,14 @@ footer nav ul {
 
 footer nav ul li {
 	display: inline-block;
-	margin-left: 200px;
+	margin-left: 10rem;
 	list-style: none;
 }
 
 footer nav ul li a {
 	font-family: Lato; 
 	font-weight: 400;
-	font-size: 13px;
+	font-size: 0.65rem;
 	color:#fff;
 	text-decoration: none;
 
@@ -257,14 +263,14 @@ footer nav ul li a {
 
 footer nav ul li h2 {
 	font-weight: 100;
-	font-size: 0.009px;
+	font-size: 0.00045rem;
 	color:#fff;
 	text-decoration: none;
 }
 footer {
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.9);
-	padding: 50px 0px
+	padding: 2.5rem 0rem;
 }
 
 
@@ -304,6 +310,9 @@ footer {
   and (-webkit-device-pixel-ratio: 4) 
   and (orientation: portrait) {
 
+	html {
+		font-size: 10px;
+	}
 
 
 	header nav {
@@ -346,77 +355,31 @@ header nav ul {
 		
 	}
 
-	
-
-	
-h1 { font-size : 10px;}
-	
-   h2{
-		   font-family: "Courier New", Courier, monospace;
-		   font-size: 5px;
-		   font-style: normal;
-		   font-weight: 70;
-		   line-height: 5px;
-		   color: rgba(0, 0, 0, 0.25);
-   }
-   
-   h3{
-		   font-family: "Courier New", Courier, monospace;
-		   font-size: 30px;
-		   font-style: bold;
-		   font-weight: 700;
-		   line-height: 18px;
-   
-   }
-   
-   h4 {
-	   font-family: "Courier New", Courier, monospace;
-		   font-size: 20px;
-		   font-style: bold;
-		   font-weight: 600;
-		   line-height: 0px;
-   }
-   
-   
-	p { font-family: "Courier New", Courier, monospace;
-		   font-size: 7px;
-		   font-style: normal;
-		   font-variant: normal;
-		   font-weight: 40;
-		   line-height: 5px; 
-		   color: black;
-		   padding: 15px;
-		   line-height: 15px;
-		   
-   
-	}
-
 
 	.AdLeft {
 		/*background-color: blue;  test*/
-		min-height: 100px;
+		min-height: 5rem;
 		height: 100%;
 		float: left;
 		width: 2%;
 	}
    
 	.AdRight {
-	   min-height: 100px;
+	   min-height: 5rem;
 	   height: 100%;
 	   float: right;
 	   width: 2%;
    }
 
    .Blog  {
-	margin-left: 0.5px;
-	margin-right: 0.5px;
-	width: 95%;
+
+	width: 100%;
 	float: center;
 }
 .Blog .container {
 	margin: 0 auto;
   width: 96%;
-  padding: 10px;
+  padding: 0.5rem;
 }
 
 
@@ -434,3 +397,82 @@ h1 { font-size : 10px;}
 
 }
 
+
+
+/* Desktop */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+	html {
+		font-size: 20px;
+	}
+
+
+	header nav {
+		display:block;
+		margin:0 auto;
+		size: 5%;
+		float: bottom;
+	}
+
+		
+	
+	
+header nav ul {
+	margin-left: 0 auto;
+	padding: 0;
+	list-style: none;
+	
+}
+	header nav li {
+		display: inline-block;
+		margin: 0em;
+		font-weight: 0;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: .01rem;
+		padding: .0em;
+		color: #FFF;
+	}
+
+
+	.logo {
+		float: center;
+		display:block;margin:0 auto;
+	}
+
+	header img {
+		width: 15%;
+		display:block;margin:0 auto;
+		float: top;
+		
+	}
+
+
+	.AdLeft {
+		/*background-color: blue;  test*/
+		min-height: 5rem;
+		height: 100%;
+		float: left;
+		width: 12.5%;
+	}
+   
+	.AdRight {
+	   min-height: 5rem;
+	   height: 100%;
+	   float: right;
+	   width: 12.5%;
+   }
+
+   .Blog  {
+
+	width: 100%;
+	float: center;
+}
+.Blog .container {
+	margin: 0 auto;
+  width: 75%;
+  padding: 0.5rem;
+}
+
+}
