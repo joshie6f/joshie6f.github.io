@@ -37,7 +37,6 @@ header nav li {
 	color: #FFF;
 }
 
-
 header nav a {
 	font-weight: 900;
 	text-decoration: none;
@@ -46,26 +45,24 @@ header nav a {
 	padding: .5em;
 	color: #FFF;
 }
-@media (min-width:60rem) {
-	p {
-		font-size: 0.625rem;
-	}
-
-	.logo {
-		float: left;
-	}
-	header nav {
-		float: right;
-
-	}
-	}
-
-@media (max-width: 400px) {
-	header img {
-
-		size: 100%; 
-	}
+.logo {
+	float: left;
 }
+header nav {
+	float: right;
+
+}
+header img {
+
+	width: 30%;
+
+}
+
+	
+	
+
+	
+
 
 
 
@@ -96,23 +93,14 @@ header nav a:focus, {
 }
 */
 
-@media (min-width:60rem) {
-	.home-hero {
-		height: 10vh;
-		padding-top: 5vh;
-		
-	}
-
-
-}
 /*Blog
 ============================
 */ 
 
 .Blog {
 	text-align: center;
-	margin-left: 100px;
-	margin-right: 100px;
+	/*margin-left: 100px;
+	margin-right: 100px;*/
 	background-color: white;
 
 }
@@ -189,18 +177,10 @@ h4 {
 
  /*The ratio between width of the blog container and the width of the ad sections changes the look of the 
  article.*/
-.Blog  {
 
-	/*margin-left: 5px;
-	margin-right: 5px;*/
-	width: 75%;
-}
+
+
 .Blog .container {
-	float: center;
-}
-
-
-.Blog .container p {
 	width: 100%;
 
 }
@@ -241,113 +221,8 @@ h4 {
 	width: 12.5%;
 }
   
+
  
-@media (max-width: 400px){
-	.Blog  {
-		/*margin: 0px auto;*/
-		text-align: center;
-		width: 60%;
-		
-
-	}
-	.AdLeft {
-		float: left;
-		width: 5%;
-		/*background-color: blue;   Test*/
-	}
-	.AdRight {
-		float: right;
-		width: 5%;
-		/*background-color: red;*/
-	}
-
-	.Blog img {
-		align: center;
-		height: 75%;
-		width:  60%;
-
-	}
-}
- 
- 
- 
- /*Tablet View*/
-@media (min-width: 401px) and (max-width: 960px){
-/* test	.container {
-		background: blue; */
-	}
-	body Header .container {
-		text-align: center;
-	}
-	body Header {
-		text-align: center;
-		margin: 0 auto;
-		}
-	.Blog .container {
-		margin: 0px auto;
-		font-size: 20px;
-	}
-
-
-
- /*Mobile View*/
-@media (max-width: 400px){
-
-	/* test 
-	.container {
-		background: green;
-		*/
-	
-	body Header .container {
-		text-align: center;
-		
-	}
-	body Header {
-		text-align: center;
-		margin: 0 auto;
-		}
-	
-	footer wrapper p{
-		font-size: 1px;
-		margin: 0px auto;
-	}
-	footer nav{
-		margin: 0 auto;
-		display: inline-block;
-	
-}
-}
-
-
-@media (max-width: 400px) { /*computer-veiw*/
-	p {
-	font-size: 20px; 
-	}
-	H1 {
-	font-size: 25px;
-	}
-}
-
-@media (min-width: 401px) and (max-width: 960px) { /*tablet*/
-	p {
-	font-size: 20px;
-	}
-	h1 {
-		font-size: 25px;
-		}
-}
-
-@media (min-width: 961px) {
-	p {
-	font-size: 1.2rem;
-	font-stretch: expanded;
-	}
-
-	h1 {
-		font-size: 25px;
-		}
-}
-
 
  
  
@@ -396,152 +271,168 @@ footer {
 
 
 
-/* ----------- Google Pixel ----------- */
+/* ----------- Meta ----------- ---------------------------------*/
+
+
+/* ----------- Galaxy S6 ----------- */
 
 /* Portrait and Landscape */
 @media screen 
   and (device-width: 360px) 
   and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) {
-	.Blog  {
-		/*margin: 0px auto;*/
-		text-align: center;
-		width: 60%;
+  and (-webkit-device-pixel-ratio: 4) {
+/*
+	.logo {
+		float: center;
+	}
+	header nav {
+		float: bottom;
+	
+	}
+	header img {
+	
+		size: 25%; 
+	}
+	*/
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+
+
+
+	header nav {
+		display:block;
+		margin:0 auto;
+		size: 5%;
+		float: bottom;
+	}
+
 		
-
-	}
-	.AdLeft {
-		float: left;
-		width: 5%;
-		/*background-color: blue;   Test*/
-	}
-	.AdRight {
-		float: right;
-		width: 5%;
-		/*background-color: red;*/
-	}
-
-	.Blog img {
-		align: center;
-		height: 75%;
-		width:  60%;
-
-	}
-
+	
+	
+header nav ul {
+	margin-left: 0 auto;
+	padding: 0;
+	list-style: none;
+	
 }
+	header nav li {
+		display: inline-block;
+		margin: 0em;
+		font-weight: 0;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: .01rem;
+		padding: .0em;
+		color: #FFF;
+	}
 
-@media (max-width: 320px){
-	.Blog  {
-		width: 90%;
-		position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
-		left: -75px;
+
+	.logo {
+		float: center;
+		display:block;margin:0 auto;
+	}
+
+	header img {
+		width: 15%;
+		display:block;margin:0 auto;
+		float: top;
 		
-
 	}
+
+	
+
+	
+h1 { font-family: Impact, Charcoal, sans-serif; font-size: 10px;
+	font-style: normal; font-variant: normal; font-weight: 70;
+	line-height: 15px; }
+	
+   h2{
+		   font-family: "Courier New", Courier, monospace;
+		   font-size: 10px;
+		   font-style: normal;
+		   font-weight: 700;
+		   line-height: 13px;
+		   color: rgba(0, 0, 0, 0.25);
+   }
+   
+   h3{
+		   font-family: "Courier New", Courier, monospace;
+		   font-size: 30px;
+		   font-style: bold;
+		   font-weight: 700;
+		   line-height: 18px;
+   
+   }
+   
+   h4 {
+	   font-family: "Courier New", Courier, monospace;
+		   font-size: 20px;
+		   font-style: bold;
+		   font-weight: 600;
+		   line-height: 0px;
+   }
+   
+   
+	p { font-family: "Courier New", Courier, monospace;
+		   font-size: 20px;
+		   font-style: normal;
+		   font-variant: normal;
+		   font-weight: 400;
+		   line-height: 25px; 
+		   color: black;
+		   padding: 15px;
+		   line-height: 35px;
+		   
+   
+	}
+
+
 	.AdLeft {
+		/*background-color: blue;  test*/
+		min-height: 100px;
+		height: 100%;
 		float: left;
-		width: 5%;
-		/*background-color: blue;   Test*/
+		width: 2%;
 	}
+   
 	.AdRight {
-		float: right;
-		width: 5%;
-		/*background-color: red;*/
-	}
+	   min-height: 100px;
+	   height: 100%;
+	   float: right;
+	   width: 2%;
+   }
 
-	.Blog img {
-		align: center;
-		height: 75%;
-		width:  60%;
+   .Blog  {
+	margin-left: 0.5px;
+	margin-right: 0.5px;
+	width: 95%;
+	float: center;
 }
-
-
-}
-
-@media (max-width: 480px) and (min-width: 321px) {
-	.Blog  {
-		width: 90%;
-		position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
-		left: -75px;
-		
-
-	}
-	.AdLeft {
-		float: left;
-		width: 5%;
-		/*background-color: blue;   Test*/
-	}
-	.AdRight {
-		float: right;
-		width: 5%;
-		/*background-color: red;*/
-	}
-
-	.Blog img {
-		align: center;
-		height: 75%;
-		width:  60%;
-}
-
-
-}
-
-@media (max-width: 600px) and (min-width: 481px){
-	.Blog  {
-		width: 80%;
-		position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
-		left: -35px;
-		
-
-	}
-	.AdLeft {
-		float: left;
-		width: 5%;
-		/*background-color: blue;   Test*/
-	}
-	.AdRight {
-		float: right;
-		width: 5%;
-		/*background-color: red;*/
-	}
-
-	.Blog img {
-		align: center;
-		height: 75%;
-		width:  60%;
-}
-
-
-}
-
-@media (max-width: 768px) and (min-width: 601px){
-	.Blog  {
-		width: 90%;
-		position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
-		left: -10px;
-		
-
-	}
-	.AdLeft {
-		float: left;
-		width: 5%;
-		/*background-color: blue;   Test*/
-	}
-	.AdRight {
-		float: right;
-		width: 5%;
-		/*background-color: red;*/
-	}
-
-	.Blog img {
-		align: center;
-		height: 75%;
-		width:  60%;
-}
-
-
+.Blog .container {
+	margin: 0 auto;
+  width: 96%;
+  padding: 10px;
 }
 
 
 
-/*All widths after this work fine*/
+
+  }
+
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+
+}
+

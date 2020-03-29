@@ -39,6 +39,8 @@ header nav li {
 
 
 header nav a {
+	display: inline-block;
+	margin: 1em;
 	font-weight: 900;
 	text-decoration: none;
 	text-transform: uppercase;
