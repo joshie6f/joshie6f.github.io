@@ -1,0 +1,507 @@
+@import
+url("http://fonts.googleapis.com/css?family=Amiko:300,400,700,900")
+;
+@import url('https://fonts.googleapis.com/css?family=Amiko&display=swap');
+
+html {
+	font-size: 20px;
+}
+
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+		padding: 0;
+		margin: 0;
+
+}
+
+header {
+    position: absolute; 
+	left: 0;
+	right: 0;
+	margin: 0em;
+}
+
+header nav ul {
+	margin-right: 0.25rem;
+	margin-left: 0 auto;
+	padding: 0;
+	list-style: none;
+	
+}
+
+header nav li {
+	display: inline-block;
+	margin: 1em;
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .75rem;
+	padding: .5em;
+	color: #FFF;
+}
+
+header nav a {
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .75rem;
+	padding: .5em;
+	color: #FFF;
+}
+
+.logo {
+	float: left;
+}
+
+
+header img {
+
+	width: 30%;
+
+}
+
+	
+	
+header p {
+	font-family: "Amiko";
+	font-size: 0.25rem;
+}
+	
+
+
+
+
+
+
+	
+	
+	/*home hero
+====================*/
+
+.home-hero {
+	background-image:
+	url(img/ss.jpeg);
+	background-size: cover;
+	background-position: center;
+	padding: 5rem 0;
+	color: #fff;
+	background-attachment: fixed;
+	width: 100%;
+}
+
+
+
+/* he didnot put it back in 
+header nav a:hover,
+header nav a:focus, {
+	color:DDD;
+}
+*/
+
+/*Blog
+============================
+*/ 
+
+.Blog {
+	text-align: center;
+	/*margin-left: 100px;
+	margin-right: 100px;*/
+	background-color: white;
+
+}
+
+header {
+	width: 100%;
+
+}
+
+
+h1 { font-family: Impact, Charcoal, sans-serif; font-size: 1.5rem;
+ font-style: normal; font-variant: normal; font-weight: 35rem;
+ line-height: 1.32rem; }
+ 
+h2{
+		font-family: "Courier New", Courier, monospace;
+		font-size: 0.75rem;
+		font-style: normal;
+		font-weight: 35rem;
+		line-height: 0.65rem;
+		color: rgba(0, 0, 0, 0.25);
+}
+
+h3{
+		font-family: "Courier New", Courier, monospace;
+		font-size: 1.5rem;
+		font-style: bold;
+		font-weight: 700;
+		line-height: 0.9rem;
+
+}
+
+h4 {
+	font-family: "Courier New", Courier, monospace;
+		font-size: 1rem;
+		font-style: bold;
+		font-weight: 600;
+		line-height: 0rem;
+}
+
+
+ p { font-family: "Courier New", Courier, monospace;
+		font-size: 1rem;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 20rem;
+		line-height: 1.25rem; 
+		color: black;
+		padding: 0.75rem;
+		line-height: 1.75rem;
+		
+
+ }
+ 
+
+#Attribution {
+	font-family: "Courier New", Courier, monospace;
+		font-size: 0.5rem;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 0;
+		line-height: 0rem; 
+		color: black;
+		padding: 0rem;
+		float: right;
+		right: 0rem;
+		margin-left: 0rem;
+}
+
+#attrib {
+	float: left;
+	margin-right: 0rem;
+	margin-left: 2.5rem;
+}
+
+ /*The ratio between width of the blog container and the width of the ad sections changes the look of the 
+ article.*/
+
+
+
+.Blog .container {
+	width: 100%;
+
+}
+ 
+
+ .begin {
+	 margin: 0rem auto;
+	 float: center;
+ }
+ 
+ img {
+	 border-radius: 0.25rem;
+	 margin-top: 0.25rem;
+ }
+
+.middle {
+	 margin: 0rem auto;
+	 float: center;
+ }
+ 
+ .end {
+	 margin: 0rem auto;
+	 float: center;
+ }
+
+ .AdLeft {
+	 /*background-color: blue;  test*/
+	 min-height: 5rem;
+	 height: 100%;
+	 float: left;
+	 width: 12.5%;
+ }
+
+ .AdRight {
+	min-height: 5rem;
+	height: 100%;
+	float: right;
+	width: 12.5%;
+}
+  
+
+ 
+
+ 
+ 
+ /*-----------------------------footer----------------------*/
+footer nav {
+	float: left;
+
+}
+footer p {
+	text-align: center;
+}
+
+footer nav ul {
+	
+}
+
+footer nav ul li {
+	display: inline-block;
+	margin-left: 10rem;
+	list-style: none;
+}
+
+footer nav ul li a {
+	font-family: Lato; 
+	font-weight: 400;
+	font-size: 0.65rem;
+	color:#fff;
+	text-decoration: none;
+
+
+}
+
+footer nav ul li h2 {
+	font-weight: 100;
+	font-size: 0.00045rem;
+	color:#fff;
+	text-decoration: none;
+}
+footer {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	padding: 2.5rem 0rem;
+}
+
+
+
+
+
+/* ----------- Meta ----------- ---------------------------------*/
+
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+/*
+	.logo {
+		float: center;
+	}
+	header nav {
+		float: bottom;
+	
+	}
+	header img {
+	
+		size: 25%; 
+	}
+	*/
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+
+	html {
+		font-size: 5px;
+	}
+
+	body {
+		overflow-X: hidden;
+	  }
+	  .inner-header,
+	  .body,
+	  .inner-footer {
+		width: 360px;
+	  }
+
+
+	header nav {
+		display:block;
+		margin:0 auto;
+		size: 10%;
+		margin-right: 0.25rem;
+		float: right;
+	}
+
+		
+	
+	
+header nav ul {
+	margin-left: 0 auto;
+	padding: 0;
+	list-style: none;
+	size: 50%;
+	
+}
+	header nav li {
+	float: right;
+	margin: 0em;
+	font-weight: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .25rem;
+	padding: 0em;
+	color: #FFF;
+
+}
+
+	.logo {
+		width: 5%;
+		float: center;
+		display:block;margin:0 auto;
+	}
+
+	header a img {
+		width: 5%;
+		display:block;margin:0 auto;
+		float: left;
+		
+	}
+
+
+	.AdLeft {
+		/*background-color: blue;  test*/
+		min-height: 5rem;
+		height: 100%;
+		float: left;
+		width: 2%;
+	}
+   
+	.AdRight {
+	   min-height: 5rem;
+	   height: 100%;
+	   float: right;
+	   width: 2%;
+   }
+
+   .Blog  {
+
+	width: 100%;
+	float: center;
+}
+.Blog .container {
+	margin: 0 auto;
+  width: 96%;
+  padding: 0.5rem;
+}
+
+
+
+
+  }
+
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+
+}
+
+
+
+/* Desktop */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+	html {
+		font-size: 20px;
+	}
+
+	body {
+		overflow-X: hidden;
+	  }
+
+	  .inner-header,
+	  .body,
+	  .inner-footer {
+		width: 1280px;
+	  }
+
+	header nav {
+		display:block;
+		margin:0 auto;
+		size: 100%;
+		margin-right: 0.5rem;
+		float: right;
+		
+		
+	}
+
+		
+	
+	
+header nav ul {
+	margin-left: 0 auto;
+	padding: 0;
+	list-style: none;
+	
+	
+}
+	header nav li {
+		float: left;
+		margin: 0em;
+		font-weight: 0;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 1rem;
+		padding: 0em;
+		color: #FFF;
+	}
+
+
+	.logo {
+		float: center;
+		display:block;margin:0 auto;
+	}
+
+	header img {
+		width: 15%;
+		display:block;margin:0 auto;
+		float: top;
+		
+	}
+
+
+	.AdLeft {
+		/*background-color: blue;  test*/
+		min-height: 5rem;
+		height: 100%;
+		float: left;
+		width: 12.5%;
+	}
+   
+	.AdRight {
+	   min-height: 5rem;
+	   height: 100%;
+	   float: right;
+	   width: 12.5%;
+   }
+
+   .Blog  {
+
+	width: 100%;
+	float: center;
+}
+.Blog .container {
+	margin: 0 auto;
+  width: 75%;
+  padding: 0.5rem;
+}
+}
+
