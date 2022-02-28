@@ -7,6 +7,7 @@ url("http://fonts.googleapis.com/css?family=Amiko:300,400,700,900")
 }
 
 body {
+		min-width: 100%;
 		padding: 0;
 		margin: 0;
 
@@ -80,7 +81,7 @@ header nav a {
 
 .home-hero {
 	background-image:
-	url(img/ss.jpeg);
+	url(img/sg.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 5em 0;
@@ -99,7 +100,7 @@ header nav a:focus, {
 
 @media (min-width:60rem) {
 	.home-hero {
-		height: 10vh;
+		height: 5vh;
 		padding-top: 5vh;
 		
 	}
@@ -126,7 +127,7 @@ header {
 
 h1 { font-family: Impact, Charcoal, sans-serif; font-size: 30px;
  font-style: normal; font-variant: normal; font-weight: 700;
- line-height: 26.4px; }
+ line-height: 26.4px; align-self: center;}
  
 h2{
 		font-family: "Courier New", Courier, monospace;
@@ -166,6 +167,23 @@ h4 {
 
  }
 
+ @media (min-width:60rem) {
+	h1, h2, h3, h4 {
+		position: relative;
+		padding-top: 5vh;
+		
+	}
+ }
+
+ @media (min-width:60rem) {
+	a {
+		align-items: center;
+		padding-top: 1vh;
+		
+	}
+
+}
+
 
 
  /*The ratio between width of the blog container and the width of the ad sections changes the look of the 
@@ -175,9 +193,16 @@ h4 {
 	/*margin-left: 5px;
 	margin-right: 5px;*/
 	width: 75%;
+	float: center;
+	align-items: center;
+	justify-content: center;
 }
+
 .Blog .container {
 	float: center;
+	align-items: center;
+	justify-content: center;
+	height: auto;
 }
 
 
@@ -212,7 +237,7 @@ h4 {
 	.Blog  {
 		/*margin: 0px auto;*/
 		text-align: center;
-		width: 90%;
+		width: 75%;
 		
 
 	}
@@ -228,9 +253,9 @@ h4 {
 	}
 
 	.Blog img {
-		align: center;
+		align-items: center;
 		height: 75%;
-		width:  100%;
+		width:  1%;
 
 	}
 }
@@ -325,9 +350,6 @@ footer p {
 	text-align: center;
 }
 
-footer nav ul {
-	
-}
 
 footer nav ul li {
 	display: inline-block;
@@ -362,3 +384,43 @@ footer {
 
 	
 
+/* ----------- Google Pixel ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+ 
+@media (max-width: 500px){
+			body {
+				min-width: fit-content;
+			}
+
+			.container{
+				display: block;
+			}
+
+			a {  
+				width: 10%;  
+				height: auto;  
+
+				}  
+				a img {
+					object-fit: cover;
+				width: 10%;  
+				height: auto;  
+				}
+		
+}
+
+@media (min-width: 600px){
+	div {
+	background-image: none;
+	}
+
+	
+}

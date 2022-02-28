@@ -84,7 +84,7 @@ header p {
 
 .home-hero {
 	background-image:
-	url(img/ss.jpeg);
+	url(img/bh.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 5rem 0;
@@ -245,9 +245,7 @@ footer p {
 	text-align: center;
 }
 
-footer nav ul {
-	
-}
+
 
 footer nav ul li {
 	display: inline-block;

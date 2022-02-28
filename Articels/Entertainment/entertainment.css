@@ -78,7 +78,7 @@ header nav a {
 
 .home-hero {
 	background-image:
-	url(img/ss.jpeg);
+	url(img/sg.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 5em 0;
@@ -196,14 +196,14 @@ h4 {
  }
 
 
-}
+
   
  
 @media (max-width: 400px){
 
 
 	.Blog img {
-		align: center;
+		align-self: center;
 		height: 20%;
 		width:  20%;
 
@@ -301,9 +301,7 @@ footer p {
 	text-align: center;
 }
 
-footer nav ul {
-	
-}
+
 
 footer nav ul li {
 	display: inline-block;

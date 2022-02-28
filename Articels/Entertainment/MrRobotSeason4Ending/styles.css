@@ -78,7 +78,7 @@ header nav a {
 
 .home-hero {
 	background-image:
-	url(img/ss.jpeg);
+	url(img/sg.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 5em 0;
@@ -193,7 +193,7 @@ h4 {
  
  img {
 	 border-radius: 5px;
-	 margin-top: 5px;
+	 margin-top: 10px;
  }
 
 .middle {
@@ -242,7 +242,7 @@ h4 {
 	}
 
 	.Blog img {
-		align: center;
+		align-self: center;
 		height: 75%;
 		width:  60%;
 
@@ -340,10 +340,6 @@ footer p {
 	text-align: center;
 }
 
-footer nav ul {
-	
-}
-
 footer nav ul li {
 	display: inline-block;
 	margin-left: 200px;
@@ -402,7 +398,7 @@ footer {
 	}
 
 	.Blog img {
-		align: center;
+		align-self: center;
 		height: 75%;
 		width:  60%;
 
@@ -430,7 +426,7 @@ footer {
 	}
 
 	.Blog img {
-		align: center;
+		align-self: center;
 		height: 75%;
 		width:  60%;
 }
@@ -458,7 +454,7 @@ footer {
 	}
 
 	.Blog img {
-		align: center;
+		align-self: center;
 		height: 75%;
 		width:  60%;
 }
@@ -486,7 +482,7 @@ footer {
 	}
 
 	.Blog img {
-		align: center;
+		align-self: center;
 		height: 75%;
 		width:  60%;
 }
@@ -514,7 +510,7 @@ footer {
 	}
 
 	.Blog img {
-		align: center;
+		align-self: center;
 		height: 75%;
 		width:  60%;
 }
