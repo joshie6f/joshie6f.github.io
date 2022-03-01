@@ -118,6 +118,13 @@ header nav a:focus, {
 
 }
 
+
+.List {
+		border-style: solid;
+		width: calc(100vw - 480px);
+}
+
+
 header {
 	width: 100%;
 
