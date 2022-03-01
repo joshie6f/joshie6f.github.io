@@ -280,15 +280,7 @@ h4 {
 		margin: 0 auto;
 		}
 	
-	footer wrapper p{
-		font-size: 1px;
-		margin: 0px auto;
-	}
-	footer nav{
-		margin: 0 auto;
-		display: inline-block;
-	
-}
+
 }
 
 @media (max-width: 400px) { /*computer-veiw*/
@@ -325,9 +317,13 @@ h4 {
  
  /*-----------------------------footer----------------------*/
 footer nav {
-	float: left;
-
+	margin: 0 auto;
+	display: inline-block;
 }
+
+
+
+
 footer p {
 	text-align: center;
 }
@@ -358,7 +354,8 @@ footer nav ul li h2 {
 footer {
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.9);
-	padding: 50px 0px
+	padding: 50px 0px;
+	float: bottom;
 }
  
 
