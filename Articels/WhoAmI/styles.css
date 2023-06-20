@@ -210,7 +210,7 @@ header nav a:hover, header nav a:focus, {
 ==========================*/
 
 .home-about-textbox {
-	background-color: #AA998F;/*#D1BE9C;*/
+	background-color: #75702F;
 	padding: 4em;
 	width: 100vw;
 	margin-left: -3%;
@@ -232,7 +232,7 @@ background-color: #f44336;
 }
 
 #About {
-	background-color: #4F7D6F;
+	background-color: ##4F7D6F;
 }
 /*
 @media (min-width: 60rem) {
